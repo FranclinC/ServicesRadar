@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651769801C6D8DAE00FB10FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6517697F1C6D8DAE00FB10FC /* AppDelegate.swift */; };
+		651769821C6D8DAE00FB10FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651769811C6D8DAE00FB10FC /* ViewController.swift */; };
+		651769851C6D8DAE00FB10FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651769831C6D8DAE00FB10FC /* Main.storyboard */; };
+		651769871C6D8DAE00FB10FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651769861C6D8DAE00FB10FC /* Assets.xcassets */; };
+		6517698A1C6D8DAE00FB10FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651769881C6D8DAE00FB10FC /* LaunchScreen.storyboard */; };
+		651769951C6D8DAE00FB10FC /* DesafioPlenoMesaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651769941C6D8DAE00FB10FC /* DesafioPlenoMesaTests.swift */; };
+		651769A01C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6517699F1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.swift */; };
+		651769B11C6D8E2300FB10FC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651769B01C6D8E2300FB10FC /* SWRevealViewController.m */; };
+		651769B41C6D90F800FB10FC /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651769B31C6D90F800FB10FC /* Filter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		651769911C6D8DAE00FB10FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651769741C6D8DAE00FB10FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6517697B1C6D8DAE00FB10FC;
+			remoteInfo = DesafioPlenoMesa;
+		};
+		6517699C1C6D8DAE00FB10FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651769741C6D8DAE00FB10FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6517697B1C6D8DAE00FB10FC;
+			remoteInfo = DesafioPlenoMesa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6517697C1C6D8DAE00FB10FC /* DesafioPlenoMesa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioPlenoMesa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6517697F1C6D8DAE00FB10FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		651769811C6D8DAE00FB10FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		651769841C6D8DAE00FB10FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		651769861C6D8DAE00FB10FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		651769891C6D8DAE00FB10FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6517698B1C6D8DAE00FB10FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651769901C6D8DAE00FB10FC /* DesafioPlenoMesaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioPlenoMesaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651769941C6D8DAE00FB10FC /* DesafioPlenoMesaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioPlenoMesaTests.swift; sourceTree = "<group>"; };
+		651769961C6D8DAE00FB10FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6517699B1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioPlenoMesaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6517699F1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioPlenoMesaUITests.swift; sourceTree = "<group>"; };
+		651769A11C6D8DAE00FB10FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651769AF1C6D8E2300FB10FC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		651769B01C6D8E2300FB10FC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		651769B21C6D8EA500FB10FC /* DesafioPlenoMesa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesafioPlenoMesa-Bridging-Header.h"; sourceTree = "<group>"; };
+		651769B31C6D90F800FB10FC /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651769791C6D8DAE00FB10FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6517698D1C6D8DAE00FB10FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651769981C6D8DAE00FB10FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651769731C6D8DAE00FB10FC = {
+			isa = PBXGroup;
+			children = (
+				651769B21C6D8EA500FB10FC /* DesafioPlenoMesa-Bridging-Header.h */,
+				651769AD1C6D8DBE00FB10FC /* Frameworks */,
+				6517697E1C6D8DAE00FB10FC /* DesafioPlenoMesa */,
+				651769931C6D8DAE00FB10FC /* DesafioPlenoMesaTests */,
+				6517699E1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests */,
+				6517697D1C6D8DAE00FB10FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6517697D1C6D8DAE00FB10FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6517697C1C6D8DAE00FB10FC /* DesafioPlenoMesa.app */,
+				651769901C6D8DAE00FB10FC /* DesafioPlenoMesaTests.xctest */,
+				6517699B1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6517697E1C6D8DAE00FB10FC /* DesafioPlenoMesa */ = {
+			isa = PBXGroup;
+			children = (
+				6517697F1C6D8DAE00FB10FC /* AppDelegate.swift */,
+				651769811C6D8DAE00FB10FC /* ViewController.swift */,
+				651769831C6D8DAE00FB10FC /* Main.storyboard */,
+				651769861C6D8DAE00FB10FC /* Assets.xcassets */,
+				651769881C6D8DAE00FB10FC /* LaunchScreen.storyboard */,
+				6517698B1C6D8DAE00FB10FC /* Info.plist */,
+				651769B31C6D90F800FB10FC /* Filter.swift */,
+			);
+			path = DesafioPlenoMesa;
+			sourceTree = "<group>";
+		};
+		651769931C6D8DAE00FB10FC /* DesafioPlenoMesaTests */ = {
+			isa = PBXGroup;
+			children = (
+				651769941C6D8DAE00FB10FC /* DesafioPlenoMesaTests.swift */,
+				651769961C6D8DAE00FB10FC /* Info.plist */,
+			);
+			path = DesafioPlenoMesaTests;
+			sourceTree = "<group>";
+		};
+		6517699E1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6517699F1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.swift */,
+				651769A11C6D8DAE00FB10FC /* Info.plist */,
+			);
+			path = DesafioPlenoMesaUITests;
+			sourceTree = "<group>";
+		};
+		651769AD1C6D8DBE00FB10FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651769AE1C6D8E2300FB10FC /* SWRevealViewController */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		651769AE1C6D8E2300FB10FC /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				651769AF1C6D8E2300FB10FC /* SWRevealViewController.h */,
+				651769B01C6D8E2300FB10FC /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6517697B1C6D8DAE00FB10FC /* DesafioPlenoMesa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651769A41C6D8DAE00FB10FC /* Build configuration list for PBXNativeTarget "DesafioPlenoMesa" */;
+			buildPhases = (
+				651769781C6D8DAE00FB10FC /* Sources */,
+				651769791C6D8DAE00FB10FC /* Frameworks */,
+				6517697A1C6D8DAE00FB10FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioPlenoMesa;
+			productName = DesafioPlenoMesa;
+			productReference = 6517697C1C6D8DAE00FB10FC /* DesafioPlenoMesa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6517698F1C6D8DAE00FB10FC /* DesafioPlenoMesaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651769A71C6D8DAE00FB10FC /* Build configuration list for PBXNativeTarget "DesafioPlenoMesaTests" */;
+			buildPhases = (
+				6517698C1C6D8DAE00FB10FC /* Sources */,
+				6517698D1C6D8DAE00FB10FC /* Frameworks */,
+				6517698E1C6D8DAE00FB10FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651769921C6D8DAE00FB10FC /* PBXTargetDependency */,
+			);
+			name = DesafioPlenoMesaTests;
+			productName = DesafioPlenoMesaTests;
+			productReference = 651769901C6D8DAE00FB10FC /* DesafioPlenoMesaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6517699A1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651769AA1C6D8DAE00FB10FC /* Build configuration list for PBXNativeTarget "DesafioPlenoMesaUITests" */;
+			buildPhases = (
+				651769971C6D8DAE00FB10FC /* Sources */,
+				651769981C6D8DAE00FB10FC /* Frameworks */,
+				651769991C6D8DAE00FB10FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6517699D1C6D8DAE00FB10FC /* PBXTargetDependency */,
+			);
+			name = DesafioPlenoMesaUITests;
+			productName = DesafioPlenoMesaUITests;
+			productReference = 6517699B1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651769741C6D8DAE00FB10FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = franclincabral;
+				TargetAttributes = {
+					6517697B1C6D8DAE00FB10FC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6517698F1C6D8DAE00FB10FC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6517697B1C6D8DAE00FB10FC;
+					};
+					6517699A1C6D8DAE00FB10FC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6517697B1C6D8DAE00FB10FC;
+					};
+				};
+			};
+			buildConfigurationList = 651769771C6D8DAE00FB10FC /* Build configuration list for PBXProject "DesafioPlenoMesa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 651769731C6D8DAE00FB10FC;
+			productRefGroup = 6517697D1C6D8DAE00FB10FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6517697B1C6D8DAE00FB10FC /* DesafioPlenoMesa */,
+				6517698F1C6D8DAE00FB10FC /* DesafioPlenoMesaTests */,
+				6517699A1C6D8DAE00FB10FC /* DesafioPlenoMesaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6517697A1C6D8DAE00FB10FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6517698A1C6D8DAE00FB10FC /* LaunchScreen.storyboard in Resources */,
+				651769871C6D8DAE00FB10FC /* Assets.xcassets in Resources */,
+				651769851C6D8DAE00FB10FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6517698E1C6D8DAE00FB10FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651769991C6D8DAE00FB10FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651769781C6D8DAE00FB10FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651769821C6D8DAE00FB10FC /* ViewController.swift in Sources */,
+				651769B41C6D90F800FB10FC /* Filter.swift in Sources */,
+				651769801C6D8DAE00FB10FC /* AppDelegate.swift in Sources */,
+				651769B11C6D8E2300FB10FC /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6517698C1C6D8DAE00FB10FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651769951C6D8DAE00FB10FC /* DesafioPlenoMesaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651769971C6D8DAE00FB10FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651769A01C6D8DAE00FB10FC /* DesafioPlenoMesaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		651769921C6D8DAE00FB10FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6517697B1C6D8DAE00FB10FC /* DesafioPlenoMesa */;
+			targetProxy = 651769911C6D8DAE00FB10FC /* PBXContainerItemProxy */;
+		};
+		6517699D1C6D8DAE00FB10FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6517697B1C6D8DAE00FB10FC /* DesafioPlenoMesa */;
+			targetProxy = 6517699C1C6D8DAE00FB10FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		651769831C6D8DAE00FB10FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651769841C6D8DAE00FB10FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		651769881C6D8DAE00FB10FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651769891C6D8DAE00FB10FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		651769A21C6D8DAE00FB10FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		651769A31C6D8DAE00FB10FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651769A51C6D8DAE00FB10FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioPlenoMesa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.franclincabral.DesafioPlenoMesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		651769A61C6D8DAE00FB10FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioPlenoMesa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.franclincabral.DesafioPlenoMesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		651769A81C6D8DAE00FB10FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesafioPlenoMesaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.franclincabral.DesafioPlenoMesaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioPlenoMesa.app/DesafioPlenoMesa";
+			};
+			name = Debug;
+		};
+		651769A91C6D8DAE00FB10FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesafioPlenoMesaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.franclincabral.DesafioPlenoMesaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioPlenoMesa.app/DesafioPlenoMesa";
+			};
+			name = Release;
+		};
+		651769AB1C6D8DAE00FB10FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesafioPlenoMesaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.franclincabral.DesafioPlenoMesaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesafioPlenoMesa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		651769AC1C6D8DAE00FB10FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesafioPlenoMesaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.franclincabral.DesafioPlenoMesaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesafioPlenoMesa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651769771C6D8DAE00FB10FC /* Build configuration list for PBXProject "DesafioPlenoMesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651769A21C6D8DAE00FB10FC /* Debug */,
+				651769A31C6D8DAE00FB10FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651769A41C6D8DAE00FB10FC /* Build configuration list for PBXNativeTarget "DesafioPlenoMesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651769A51C6D8DAE00FB10FC /* Debug */,
+				651769A61C6D8DAE00FB10FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		651769A71C6D8DAE00FB10FC /* Build configuration list for PBXNativeTarget "DesafioPlenoMesaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651769A81C6D8DAE00FB10FC /* Debug */,
+				651769A91C6D8DAE00FB10FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		651769AA1C6D8DAE00FB10FC /* Build configuration list for PBXNativeTarget "DesafioPlenoMesaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651769AB1C6D8DAE00FB10FC /* Debug */,
+				651769AC1C6D8DAE00FB10FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 651769741C6D8DAE00FB10FC /* Project object */;
+}
